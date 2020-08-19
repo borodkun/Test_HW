@@ -23,22 +23,27 @@ namespace Matrix_Multiplication
                 }
 
             //Вывод исходной матрицы
-            Console.WriteLine("Исходная матрица");
-            for (int i = 0; i < v.GetLength(0); i++)
-            {
-                for (int j = 0; j < v.GetLength(1); j++)
+                Console.WriteLine("Исходная матрица");
+                for (int i = 0; i < v.GetLength(0); i++)
                 {
-                    Console.Write(v[i, j] + "\t");
+                    for (int j = 0; j < v.GetLength(1); j++)
+                    {
+                        Console.Write(v[i, j] + "\t");
+                    }
+                    Console.WriteLine("\n");
                 }
-                Console.WriteLine("\n");
-            }
-            Console.WriteLine();
+
+                Console.WriteLine();
 
             //Умножение всех элементов матрицы на 7
+            Console.WriteLine("Введите число на которое умножить");
+            int number;
+            number = Convert.ToInt32(Console.ReadLine());
+
             for (int i = 0; i < v.GetLength(0); i++)
                 for (int j = 0; j < v.GetLength(1); j++)
                 {
-                    v[i, j] = v[i, j] * 7;
+                    v[i, j] = v[i, j] * number;
                 }
 
             //Вывод новой матрицы
