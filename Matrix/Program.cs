@@ -9,7 +9,7 @@ namespace Matrix_Multiplication
     {
         static void Main(string[] args)
         {
-            //Объявление динамического массива v
+            //Объявление динамического массива
             Console.WriteLine("Введите число строк матрицы ");
             int size1 = int.Parse(Console.ReadLine()); Console.WriteLine("Введите число столбцов матрицы ");
             int size2 = int.Parse(Console.ReadLine()); int[,] v = new int[size1, size2];
@@ -34,7 +34,7 @@ namespace Matrix_Multiplication
             }
             Console.WriteLine();
 
-            //Умножение всех элементов матрицы на 7
+            //Умножение всех элементов матрицы на число
             for (int i = 0; i < v.GetLength(0); i++)
                 for (int j = 0; j < v.GetLength(1); j++)
                 {
