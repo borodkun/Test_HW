@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace Matrix_Multiplication
 {
@@ -21,9 +18,10 @@ namespace Matrix_Multiplication
                 {
                     v[i, j] = rnd.Next(1, 10); ;
                 }
+            Console.WriteLine("\n");
 
             //Вывод исходной матрицы
-                Console.WriteLine("Исходная матрица");
+            Console.WriteLine("Исходная матрица");
                 for (int i = 0; i < v.GetLength(0); i++)
                 {
                     for (int j = 0; j < v.GetLength(1); j++)
@@ -35,23 +33,21 @@ namespace Matrix_Multiplication
 
                 Console.WriteLine();
 
-<<<<<<< HEAD
-            //Умножение всех элементов матрицы на 7
+            //Умножение всех элементов матрицы на число
             Console.WriteLine("Введите число на которое умножить");
             int number;
             number = Convert.ToInt32(Console.ReadLine());
 
-=======
             //Умножение всех элементов матрицы на число
->>>>>>> 06115ebe9c2323fce473d68122557318653a5629
             for (int i = 0; i < v.GetLength(0); i++)
                 for (int j = 0; j < v.GetLength(1); j++)
                 {
                     v[i, j] = v[i, j] * number;
                 }
+            Console.WriteLine("\n");
 
             //Вывод новой матрицы
-            Console.WriteLine("Матрица * 7");
+            Console.WriteLine($"Умножение матрицы на {number}");
             for (int i = 0; i < v.GetLength(0); i++)
             {
                 for (int j = 0; j < v.GetLength(1); j++)
