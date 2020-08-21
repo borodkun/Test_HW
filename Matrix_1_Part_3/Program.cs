@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Numerics;
 
-namespace HomeWork_4_Part_3_2
+namespace HomeWork_4_Part_3_3
 {
     class Program
     {
@@ -62,16 +62,16 @@ namespace HomeWork_4_Part_3_2
 
             Console.WriteLine();
 
-            //Сложение двух матриц "V" и "О"
+            //Разница двух матриц "V" и "О"
             for (int i = 0; i < v.GetLength(0); i++)
                 for (int j = 0; j < v.GetLength(1); j++)
                 {
-                    v[i, j] = v[i, j] + o[i, j];
+                    v[i, j] = v[i, j] - o[i, j];
                 }
             Console.WriteLine("\n");
 
             //Вывод новой матрицы
-            Console.WriteLine($"Сумма двух матриц 'V' 'O'");
+            Console.WriteLine($"Разница двух матриц 'V' 'O'");
             for (int i = 0; i < v.GetLength(0); i++)
             {
                 for (int j = 0; j < v.GetLength(1); j++)

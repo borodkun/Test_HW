@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matrix", "Matrix.csproj", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrix_1_Part_2", "..\Matrix_1_Part_2\Matrix_1_Part_2.csproj", "{ACA2D7F0-6D6D-47B3-B1CD-C5FBFF0F1684}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrix_1_Part_3", "..\Matrix_1_Part_3\Matrix_1_Part_3.csproj", "{44C7BCD0-11AD-4217-B88C-D46AEFAE831C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{ACA2D7F0-6D6D-47B3-B1CD-C5FBFF0F1684}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ACA2D7F0-6D6D-47B3-B1CD-C5FBFF0F1684}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ACA2D7F0-6D6D-47B3-B1CD-C5FBFF0F1684}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44C7BCD0-11AD-4217-B88C-D46AEFAE831C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44C7BCD0-11AD-4217-B88C-D46AEFAE831C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44C7BCD0-11AD-4217-B88C-D46AEFAE831C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44C7BCD0-11AD-4217-B88C-D46AEFAE831C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
